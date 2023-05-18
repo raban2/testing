@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agriculture Prediction App"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"></TextView>
+
+        <!--Edit Text box for the Nitrogen-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Nitrogen"
+            android:id="@+id/N"
+
+            android:layout_marginTop="20dp"></EditText>
+
+    <!--Edit Text box for the Nitrogen-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Phosphorus"
+        android:id="@+id/P"
+        android:layout_marginTop="20dp"></EditText>
+
+    <!--Edit Text box for the Nitrogen-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Potassium"
+        android:id="@+id/K"
+        android:layout_marginTop="20dp"></EditText>
+    <!--Edit Text box for the Nitrogen-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="temperature"
+        android:id="@+id/temperature"
+        android:layout_marginTop="20dp"></EditText>
+    <!--Edit Text box for the Nitrogen-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="humidity"
+        android:id="@+id/humidity"
+        android:layout_marginTop="20dp"></EditText>
+
+    <!--Edit Text box for the Nitrogen-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="ph"
+        android:id="@+id/ph"
+        android:layout_marginTop="20dp"></EditText>
+
+    <!--Edit Text box for the Nitrogen-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="rainfall"
+        android:singleLine="true"
+        android:id="@+id/rainfall"
+        android:layout_marginTop="20dp"></EditText>
+
+    <!--    button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="predict"
+        android:layout_marginTop="30dp"
+        android:id="@+id/Predict"></Button>
+
+
+    <!--    TextView to display the Result-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:id="@+id/result"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"></TextView>
+
+</LinearLayout>
